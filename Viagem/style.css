@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+header {
+    height: 40px;
+    background-color: #1D0F6E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.contato {
+    margin-left: 400px;
+    font-size: 18px;
+    color: white;
+}
+.email {
+    margin-right: 400px;
+    font-size: 18px;
+    color: white;
+}
+.sonho {
+    background-image: url(img/aviao.png);
+    height: 700px;
+    justify-items: center;
+}
+.tPrincipal {
+    font-size: 70px;
+    font-weight: 400;
+    color: white;
+    padding-top: 60px;
+}
+.confira{
+    justify-items: center;
+}
+.tConfira{
+    font-size: 60px;
+    font-weight: 400;   
+    color: #1D0F6E;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.container {
+    display: flex;
+}
+.lugares {
+    border-color: black;
+    border-radius: 10px;
+}
+.foto {
+    width: 300px;
+    height: 500px;
+}
+footer{
+    background-color: #1D0F6E;
+    height: 180px;
+    justify-items: center;
+    align-content: center;
+}
+h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 300;
+}
