@@ -25,7 +25,7 @@ header {
 .sonho {
     background-image: url(img/aviao.png);
     height: 700px;
-    justify-items: center;
+    justify-content: center;
 }
 .tPrincipal {
     font-size: 70px;
@@ -45,20 +45,22 @@ header {
 }
 .container {
     display: flex;
+    justify-content: center;
 }
 .lugares {
+    margin-left: 50px;
+    margin-right: 50px;
     border-color: black;
     border-radius: 10px;
 }
 .foto {
     width: 300px;
-    height: 500px;
+    height: 490px;
 }
 footer{
     background-color: #1D0F6E;
     height: 180px;
-    justify-items: center;
-    align-content: center;
+    justify-content: center;
 }
 h1{
     color: white;
