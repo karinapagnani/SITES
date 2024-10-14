@@ -33,24 +33,28 @@ header {
     color: white;
     padding-top: 60px;
 }
-.confira{
+.confira, .oport{
     justify-items: center;
 }
-.tConfira{
+.tConfira, .tOport{
     font-size: 60px;
     font-weight: 400;   
     color: #1D0F6E;
-    margin-top: 50px;
+    margin-top: 70px;
     margin-bottom: 50px;
+    margin-left: 240px;
 }
 .container {
     display: flex;
     justify-content: center;
+    margin-bottom: 20px;
 }
 .lugares {
+    height: 580px;
+    width: 300px;
     margin-left: 50px;
     margin-right: 50px;
-    border-color: black;
+    border: 5px solid black;
     border-radius: 10px;
 }
 .foto {
@@ -60,10 +64,18 @@ header {
 footer{
     background-color: #1D0F6E;
     height: 180px;
+    align-content: center;
     justify-content: center;
 }
 h1{
     color: white;
     font-size: 40px;
     font-weight: 300;
+}
+.nome, .valor {
+    font-size: 32px;
+    text-align: justify;
+}
+span {
+    font-size: 16px;
 }
