@@ -1,0 +1,6 @@
+h1{
+   /*o color troca a cor do texto*/
+    color: rgb(0, 255, 213);
+    font-size: 50px;
+    background-color: beige;
+}

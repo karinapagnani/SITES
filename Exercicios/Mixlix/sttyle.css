@@ -1,0 +1,21 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+header {
+    background-image: url(img/bannerzao.png);
+    height: 900px;
+    width: 1440px;;
+}
+.container {
+    display: flex;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.box {
+    display: flex;
+    width: 255px;
+    height: 95px;
+    background-color: #F7F7F7 ;
+}
