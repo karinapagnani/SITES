@@ -9,18 +9,14 @@ header {
     height: 150px;
     display: flex;
     align-items: center;
-    justify-content: center;
-}
-a {
-    font-size: 35px;
-    margin-left: 25px;
+    justify-content: space-between;
+    
 }
 .logo {
     height: 140px;
-    margin-right: 1000px;
-
 }
 .tClicavel {
+    font-size: 35px;
     color: white;
 }
 .fotoPrincipal {

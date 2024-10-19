@@ -26,12 +26,14 @@ header {
     background-image: url(img/aviao.png);
     height: 700px;
     justify-content: center;
+    align-items: center;
 }
 .tPrincipal {
     font-size: 70px;
     font-weight: 400;
     color: white;
-    padding-top: 60px;
+    text-align: center;
+    padding-top: 70px;
 }
 .confira, .oport{
     justify-items: center;
@@ -42,7 +44,12 @@ header {
     color: #1D0F6E;
     margin-top: 70px;
     margin-bottom: 50px;
-    margin-left: 240px;
+    margin-left: 230px;
+}
+.tOport {
+    margin-left: 285px;
+    margin-top: 150px;
+    margin-bottom: 150px;
 }
 .container {
     display: flex;
@@ -54,7 +61,7 @@ header {
     width: 300px;
     margin-left: 50px;
     margin-right: 50px;
-    border: 5px solid black;
+    border: 3px solid black;
     border-radius: 10px;
 }
 .foto {
@@ -63,9 +70,8 @@ header {
 }
 footer{
     background-color: #1D0F6E;
+    align-items: center;
     height: 180px;
-    align-content: center;
-    justify-content: center;
 }
 h1{
     color: white;
