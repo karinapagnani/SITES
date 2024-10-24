@@ -10,13 +10,14 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+    padding-left: 45px;
+    padding-right: 70px;
 }
 .logo {
     height: 140px;
 }
 .tClicavel {
-    font-size: 35px;
+    font-size: 30px;
     color: white;
 }
 .fotoPrincipal {
@@ -26,15 +27,19 @@ header {
 }
 .container {
     display: flex;
+    justify-content: center;
+    margin-left: 180px;
 }
-.pSaudaveis {
+.comidasSaudaveis p {
     color: black;
     font-size: 40px;
+    margin-bottom: 100px;
 }
 h2 {
     color: #ECA457;
     font-size: 70px;
     font-weight: 100;
+    text-align: center;
 }
 footer {
     padding-left: 45%;
@@ -46,14 +51,17 @@ footer {
 .comidasSaudaveis {
     padding-top: 70px;
     padding-bottom: 70px;
-    padding-left: 80px;
+    align-content: center;
 }
-.tSaudaveis {
-    padding-left: 365px;
+.comidasSaudaveis h2 {
     padding-bottom: 60px;
+    text-align: center;
 }
-.pSaudaveis {
-    bottom: 60px;
+.comidasSaudaveis p {
+    text-align: justify;
+    color: black;
+    font-size: 40px;
+    margin-bottom: 100px;
 }
 .iconeReceita {
     height: 120px;
@@ -71,10 +79,6 @@ span {
     padding-right: 300px;
     display: flex;
 }
-.receitinhas2 {
-    padding-right: 300px;
-    display: flex;
-}
 .linha {
     height: 3px;
     background-color: #ECA457;
@@ -85,15 +89,27 @@ span {
     height: 200px;
 }
 .blog {
-    justify-items: center;
-    align-content: center;
+   display: flex;
+   justify-content: center;
+   margin-top: 50px;
+   margin-bottom: 50px;
+
 }
-.subBlog {
+.blog h3 {
     font-size: 40px;
     font-weight: 100;
     color: black;
 }
-.tBlog {
+.blog p {
     font-size: 25px;
     color: #AFA7A7;
+}
+.descBlog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logoF {
+    height: 140px;
+    padding-right: 70px;
 }

@@ -44,10 +44,9 @@ header {
     color: #1D0F6E;
     margin-top: 70px;
     margin-bottom: 50px;
-    margin-left: 230px;
+    text-align: center;
 }
 .tOport {
-    margin-left: 285px;
     margin-top: 150px;
     margin-bottom: 150px;
 }
@@ -71,7 +70,8 @@ header {
 }
 footer{
     background-color: #1D0F6E;
-    align-items: center;
+    display: flex;
+    justify-items: center;
     height: 180px;
 }
 h1{
@@ -85,4 +85,7 @@ h1{
 }
 span {
     font-size: 16px;
+}
+tRodape {
+    text-align: center;
 }
