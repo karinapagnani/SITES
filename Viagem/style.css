@@ -8,8 +8,8 @@ header {
     height: 40px;
     background-color: #1D0F6E;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 
 }
 .contato {
@@ -63,6 +63,7 @@ header {
     margin-right: 50px;
     border: 3px solid black;
     border-radius: 10px;
+    justify-items: center;
 }
 .foto {
     width: 300px;
