@@ -3,16 +3,31 @@
     border: 0;
     padding: 0;
     background-color: black;
+    font-family: nost;
+}
+@font-face {
+    font-family: nost;
+    src: url(NostalgicWhispers-Regular.ttf);
+}
+html {
+    scroll-behavior: smooth;
 }
 .nomao {
-    height: 750px;
+    height: 800px;
     background-image: url(img/nomeBonito.png);
+    background-size: cover;
 }
 header {
     height: 30px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 .elemento1 {
     height: 800px;
@@ -51,20 +66,21 @@ header {
 }
 .elemento3 {
     height: 800px;
-    margin-left: 520.5px;
-}
-.elemento5 {
-    width: 1349px;
+    margin-left: 690px;
 }
 .lugares h2 {
+    margin-top: 200px;
+    margin-left: 200px;
     text-align: start;
     font-size: 45px;
     color: #90E5E6;
 }
 .lugares p {
-    margin-left: 700px;
+    text-align: center;
+    margin-left: 850px;
+    margin-top: 600px;
     text-align: start;
-    font-size: 20px;
+    font-size: 45px;
     color: #90E5E6; 
 }
 .mais {
@@ -78,23 +94,25 @@ header {
 .elemento6 {
     margin-top: 100px;
     height: 700px;
+    margin-right: 200px;
 }
 footer{
     padding-left: 70px;
     margin-top: 100px;
     height: 100px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
 }
 header {
-    padding-right: 70px;
+    padding-right: 50px;
     height: 100px;
     display: flex;
     align-items: center;
     justify-content: end;
 }
 #opcoes {
-    width: 200px;
+    width: 150px;
     font-size: 25px;
     color: #90E5E6;
     align-content: space-around;
@@ -105,11 +123,13 @@ header {
     color: #90E5E6;
     align-content: space-around;
 }
-#iconRedes , button{
+#iconRedes{
     height: 25px;
 }
-#redesS {
-    align-content: space-around;
+.botoes {
+    display: flex;
+    flex-wrap: wrap;
+   align-content: space-around;
 }
 #saiba {
     height: 35px;
@@ -122,4 +142,10 @@ header {
     justify-content: center;
     margin-top: 7px;
     margin-left: 150px;
+}
+.lugares {
+    background-image: url(img/elemento5.png);
+    background-size: cover;
+    width: 1800px;
+    align-items: center;
 }
