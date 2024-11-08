@@ -94,7 +94,7 @@ nav{
 .elemento6 {
     margin-top: 100px;
     height: 700px;
-    margin-right: 200px;
+    margin-right: 100px;
 }
 footer{
     padding-left: 70px;
@@ -123,9 +123,6 @@ header {
     color: #90E5E6;
     align-content: space-around;
 }
-#iconRedes{
-    height: 25px;
-}
 .botoes {
     display: flex;
     flex-wrap: wrap;
@@ -147,5 +144,6 @@ header {
     background-image: url(img/elemento5.png);
     background-size: cover;
     width: 1800px;
-    align-items: center;
+    padding-top: 0;
+    margin-top: 0;
 }

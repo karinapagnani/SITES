@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin-top: 0;
+    border: 0;
+}
+header {
+    height: 80px;
+    background-color: black;
+    display: grid;
+    place-items: center;
+}
+header a {
+    color: white;
+}
+.escudo {
+    height: 70px;
+    padding-right: 800px;
+}
+#entrada {
+    background-image:url(img/bannerSNM.png);
+    background-size: cover;
+}
+.atuais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    background-color: black;
+    height: 50px;
+    width: 150px;
+}
+.hino a {
+    color: white;
+}
