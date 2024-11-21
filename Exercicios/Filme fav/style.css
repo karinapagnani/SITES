@@ -1,4 +1,66 @@
-.container {
-   display:flex;
-   flex-direction: row;
-} 
+* {
+   padding: 0;
+   margin: 0;
+   border: 0;
+}
+body {
+   background-color: #F4F4F4;
+}
+#sobre {
+   height: 930px;
+   background-image: url(img/inicial.png);
+   background-size: cover;
+}
+header {
+   height: 90px;
+   box-shadow: rgba(14, 63, 126, 0.04) 0px 0px 0px 1px, rgba(42, 51, 69, 0.04) 0px 1px 1px -0.5px, rgba(42, 51, 70, 0.04) 0px 3px 3px -1.5px, rgba(42, 51, 70, 0.04) 0px 6px 6px -3px, rgba(14, 63, 126, 0.04) 0px 12px 12px -6px, rgba(14, 63, 126, 0.04) 0px 24px 24px -12px;
+}
+header nav {
+   display: flex;
+}
+.linha {
+   background-color: black;
+   height: 2px;
+   width: 100%;
+}
+#sobre p {
+   width: 500px;
+   padding-top:450px;
+   margin-left: 150px;
+}
+.botoes {
+   margin-top: 80px;
+   margin-left: 150px; 
+   display: flex;
+   justify-content: space-between;
+   width: 500px;
+}
+.botoes button {
+   height: 38px;
+   width: 200px;
+   border-radius: 17px;
+   background-color: #ef008e;
+   color: black;
+   box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+.elenco button {
+   border: solid black 1px;
+   box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+   height: 38px;
+   width: 225px;
+   border-radius: 17px;
+}
+.elenco {
+   display: flex;
+   height: 930px;
+}
+.elenco img {
+   margin-top: 470px;
+   height: 400px;
+}
+.daEsquerda, .daDireita {
+   width: 225px;
+   height: 300px;
+   display: block;
+   margin-bottom: 30px;
+}
