@@ -2,9 +2,17 @@
    padding: 0;
    margin: 0;
    border: 0;
+   }
+
+@font-face {
+   font-family: fightree;
+   src: url(font/Figtree-Regular.ttf);
 }
+
 body {
    background-color: #F4F4F4;
+   padding-top: 98px;
+   font-family: "fightree";
 }
 #sobre {
    height: 930px;
@@ -13,15 +21,30 @@ body {
 }
 header {
    height: 90px;
+   width: 100%;
    box-shadow: rgba(14, 63, 126, 0.04) 0px 0px 0px 1px, rgba(42, 51, 69, 0.04) 0px 1px 1px -0.5px, rgba(42, 51, 70, 0.04) 0px 3px 3px -1.5px, rgba(42, 51, 70, 0.04) 0px 6px 6px -3px, rgba(14, 63, 126, 0.04) 0px 12px 12px -6px, rgba(14, 63, 126, 0.04) 0px 24px 24px -12px;
+   position: fixed;
+   top: 0;
+   background-color: #F4F4F4;
+   opacity: 70%;
+   display: grid;
+   place-items: center;
 }
 header nav {
    display: flex;
+   width: 400px;
+   justify-content: space-around;
+}
+header nav a {
+   color: #ef008e;
+   text-decoration: none;
 }
 .linha {
    background-color: black;
    height: 2px;
    width: 100%;
+   position: fixed;
+   top: 90px;
 }
 #sobre p {
    width: 500px;
@@ -40,8 +63,19 @@ header nav {
    width: 200px;
    border-radius: 17px;
    background-color: #ef008e;
-   color: black;
+   color: white;
    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+   transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.botoes button a {
+   color: white;
+   text-decoration: none;
+   transition: transform 0.2s ease;
+}
+.botoes button:hover {
+   background-color: black;
+   border: solid #ef008e 1px;
+   transform: scale(1.05);
 }
 .elenco button {
    border: solid black 1px;
@@ -49,18 +83,26 @@ header nav {
    height: 38px;
    width: 225px;
    border-radius: 17px;
+   transition: color 0.3s ease-in-out, ;
 }
+.elenco button:hover {
+   color: #ef008e;
+   border: solid #ef008e 1px;
+   transform: scale(1.05);
+}
+
 .elenco {
    display: flex;
-   height: 930px;
+   height: 500px;
 }
 .elenco img {
-   margin-top: 470px;
+   margin-top: 450px;
    height: 400px;
 }
 .daEsquerda, .daDireita {
    width: 225px;
    height: 300px;
-   display: block;
+   display: flex;
+   flex-direction: column;
    margin-bottom: 30px;
 }
