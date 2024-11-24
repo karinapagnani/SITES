@@ -32,8 +32,11 @@ header {
 }
 header nav {
    display: flex;
-   width: 400px;
+   width: 500px;
    justify-content: space-around;
+}
+.estrelinha {
+   height: 30px;
 }
 header nav a {
    color: #ef008e;
@@ -90,19 +93,58 @@ header nav a {
    border: solid #ef008e 1px;
    transform: scale(1.05);
 }
-
 .elenco {
    display: flex;
-   height: 500px;
+   height: 600px;
 }
 .elenco img {
-   margin-top: 450px;
-   height: 400px;
+   margin-top: 0;
+   height: 390px;
 }
 .daEsquerda, .daDireita {
    width: 225px;
-   height: 300px;
+   height: 400px;
    display: flex;
    flex-direction: column;
-   margin-bottom: 30px;
+   align-content: center;
+   margin-right: 300px;
+   padding-top: 200px;
+}
+.daEsquerda {
+   margin-left: 250px;
+   margin-right: 0;
+   padding-right: 0;
+}
+.daEsquerda button, .daDireita button {
+   margin-bottom: 40px;
+}
+.fotoElenco {
+   margin-top: 0;
+   padding-top: 0;
+   padding-bottom: 0;
+   display: grid;
+   place-items: center;
+}
+.containerCaixinhas {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   margin-bottom: 50px;
+}
+.caixa {
+   height: 230px;
+   width: 230px;
+   display: grid;
+   place-content: center;
+   background-color: white;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.caixa:hoover {
+   transform: scale(1.1); 
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    }
+.foto {
+   height: 200px;
+   width: 200px;
 }
