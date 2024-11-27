@@ -3,7 +3,7 @@
     margin: 0;
     border: 0;
 }
-html {
+body {
     background-color: #F4F4F4;
 }
 header {
@@ -11,6 +11,23 @@ header {
     align-items: center;
     justify-content: space-between;
     height: 112px;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+.topo {
+    margin-bottom: 90px;
+}
+nav {
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+}
+nav a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+nav a:hover {
+    color: #F3C325;
 }
 .busca {
     display: grid;
@@ -42,6 +59,10 @@ header {
     box-shadow: inset;
     margin-top: 80px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: transform 0.2s ease;
+}
+.caixaP:hover {
+        transform: scale(1.05);
 }
 .individual {
     background-color: white;
@@ -93,15 +114,23 @@ header {
 .amarelinho {
     height: 20px;
     background-color: #F3C325;
+    bottom: 0;
     margin-bottom: 0;
 }
 .ctt {
     font-size: 20px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 footer {
     background-color: white;
-    height: 210px;
-    align-items: end;
+    height: 100px;
+    margin-top: 30px;
+}
+.chama {
+    display: flex;
+    flex-direction: row;
+    align-content: end;
+    width: 600px;
+    justify-content: space-around;
 }

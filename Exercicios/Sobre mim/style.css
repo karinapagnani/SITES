@@ -78,7 +78,7 @@ nav{
 .lugares p {
     text-align: center;
     margin-left: 850px;
-    margin-top: 600px;
+    margin-top: 50px;
     text-align: start;
     font-size: 45px;
     color: #90E5E6; 
@@ -126,9 +126,9 @@ header {
 .botoes {
     display: flex;
     flex-wrap: wrap;
-   align-content: space-around;
+    align-content: space-around;
 }
-#saiba {
+.saiba {
     height: 35px;
     width: 250px;
     background-color: #90E5E6;
@@ -137,13 +137,15 @@ header {
     font-size: 15px;
     color: black;
     justify-content: center;
+    align-content: center;
     margin-top: 7px;
     margin-left: 150px;
+    transition: box-shadow 0.3s ease;
 }
-.lugares {
-    background-image: url(img/elemento5.png);
-    background-size: cover;
-    width: 1800px;
-    padding-top: 0;
-    margin-top: 0;
+.saiba:hover {
+    box-shadow: rgba(104, 216, 231, 0.24) 0px 48px 100px 0px;
+}
+#saiba {
+    text-decoration: none;
+
 }
