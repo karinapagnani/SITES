@@ -30,7 +30,9 @@ header {
    display: grid;
    place-items: center;
 }
+
 header nav {
+   place-items: center;
    display: flex;
    width: 500px;
    justify-content: space-around;

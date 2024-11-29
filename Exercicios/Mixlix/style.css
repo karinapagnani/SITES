@@ -1,0 +1,175 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    font-family: "Inclu" ;
+}
+@font-face {
+    font-family: Inclu;
+    src: url(InclusiveSans-Regular.ttf);
+}
+.cima {
+    background-image: url(img/bannerzao.png);
+    height: 800px;
+    width: 1519.5px;
+    background-size: cover;
+    margin-bottom: 100px;
+}
+.cabecalho {
+    height: 700px;
+    background-image: url(img/fundoLegal.jpg);
+    background-size: cover;
+    margin-bottom: 100px;
+}
+nav {
+    padding-top: 30px;
+    padding-left: 800px;
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+    height: 100px;
+    justify-content: space-around;
+}
+.comecinho {
+    padding-top: 30px;
+    display: flex;
+    width: 700px;
+    height: 100px;
+}
+.comecinho img {
+    height: 90px;
+    padding-left: 30px;
+}
+nav a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    width: 100px;
+    margin-right: 60px;
+    transition: color 0.3s ease;
+}
+nav a:hover {
+    color: #cbcbcb;
+}
+.container {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    padding-left: 160px;
+    margin-bottom: 120px;
+}
+.container2 {
+    width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: center;
+    justify-content: space-between;
+    margin-left: 110px;
+    padding-bottom: 60px;
+}
+.box {
+    display: flex;
+    width: 285px;
+    height: 105px;
+    background-color: #F7F7F7 ;
+    margin-right: 50px;
+    border-radius: 8px;
+    transition: transform 0.2s ease;
+}
+.boxMais{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    width: 800px;
+    height: 315;
+}
+.card {
+    background-color: #ffffff;
+    height: 300px;
+    width: 240px;
+    display: grid;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+}
+.imgCard {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 210px;
+    width: 240px;
+    background-color: #F7F7F7;
+}
+.imgCard img {
+    height: 190px;
+}
+.box:hover{
+        transform: scale(1.01);
+}
+.card p {
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 15px;
+}
+.laranjinha {
+    color: #D68508;
+}
+.textoCaixa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 170px;
+    text-align: center;
+    padding-left: 20px;
+    color: #020202;
+}
+.textoCaixa h1 {
+    font-weight: 500;
+}
+.textoCaixa p {
+    font-size: 15px;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 30px;
+}
+.pizzas {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 15px;
+    width: 330px;
+    height: 47px;
+    border-radius: 30px;
+    border: 1px solid black;
+}
+.doces {
+    width: 170px;
+    height: 47px;
+    font-size: 15px;
+    border-radius: 30px;
+    margin-left: 0;
+    background-color: #D68508;
+    color: white;
+}
+.maisMais{
+    height: 700px;
+    margin-bottom: 200px;
+}
+.maisMais h2{
+    margin-left: 665px ;
+    margin-bottom: 50px;
+}

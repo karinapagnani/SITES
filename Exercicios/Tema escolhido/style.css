@@ -3,11 +3,20 @@
     margin: 0;
     border: 0;
 }
+@font-face {
+    font-family: negrito;
+    src: url(Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: basica;
+    src: url(Roboto-Light.ttf);
+}
 header {
     height: 80px;
     background-color: black;
     display: grid;
     place-items: center;
+    font-family: "negrito";
 }
 header a {
     color: white;
