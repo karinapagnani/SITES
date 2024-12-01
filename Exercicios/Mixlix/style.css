@@ -60,7 +60,7 @@ nav {
     background-color: #020202;
     color: white;
 }
-.textoSobre button a {
+.textoSobre button a, .escrito button a {
     font-size: 15px;
     color: white;
     text-decoration: none;
@@ -129,7 +129,7 @@ input {
     padding-left: 0;
     transition: 0.3s background-color;
 }
-.botao :hover {
+.botao:hover {
     background-color: white;
     color: black;
 }
@@ -148,6 +148,7 @@ input {
     background-color: rgba(0, 0, 0, 0.644);
     border-radius: 30px;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+    border: 1px solid white;
 }
 .local {
     height: 807px;
