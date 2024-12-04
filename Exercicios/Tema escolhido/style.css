@@ -27,16 +27,35 @@ header {
 }
 header nav a {
     color: white;
+    transition: 0.3s;
+}
+header nav a:hover {
+    color: rgb(177, 177, 177);
 }
 header nav {
     display: flex;
     width: 400px;
     justify-content: space-around;
 }
-#entrada {
-    height: 680px;
-    background-image: url(img/fundao.jpg);
+.historia {
+    align-items: center;
+    display: grid;
+    place-items: center;
+    margin-bottom: 140px;
+}
+.continuation {
+    height: 700px;
+    background-image: url(img/estadiosfc.jpeg);
     background-size: cover;
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+.historia p {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    color: black;
+    width: 1200px;
+    text-align: center;
 }
 main{
     font-family: "basica";
@@ -47,6 +66,7 @@ h1, h2 {
 .escudos {
     display: flex;
     padding-right: 15px;
+    padding-bottom: 80px;
 }
 .card {
     height: 275px;
@@ -82,23 +102,49 @@ h1, h2 {
     height: 70px;
     margin-right: 1000px;
 }
-#entrada {
-    background-image:url(img/bannerSNM.png);
-    background-size: cover;
-}
 .atuais {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-button {
-    background-color: black;
+.hino {
+    border: 1px solid black;
+    background-color: white;
     height: 50px;
     width: 150px;
-    border-radius: 20px;
+    border-radius: 50px;
+    transition: 0.3s background-color;
+}
+.hino:hover {
+    background-color:  rgba(48, 48, 48, 0.281);
 }
 .hino a {
-    color: white;
+    color: black;
+}
+.boxIdolos {
+    margin-left: 80px;
+    margin-right: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.idolo {
+    height: 470px;
+    width: auto;
+    display: grid;
+    border-radius: 10px;
+    place-items: center;
+    border: 1px solid black;
+    padding-top: 0;
+    margin-bottom: 80px;
+    transition: transform 0.2s ease;
+}
+.idolo:hover {
+    transform: scale(1.05);
+}
+.idolo img {
+    margin-top: 0;
+    height: 380px;
 }
 footer {
     background-color: black;
@@ -127,6 +173,10 @@ footer {
 .navRodape a {
     color: white;
     font-family: "principal";
+    transition: 0.3s;
+}
+.navRodape a:hover{
+    color: rgb(177, 177, 177);
 }
 .navs {
     display: grid;
