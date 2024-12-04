@@ -9,16 +9,23 @@ header {
     height: 150px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     padding-left: 45px;
     padding-right: 70px;
+}
+header img {
+    margin-right: 800px;
+}
+.primeiro {
+    margin-right: 50px;
 }
 .logo {
     height: 140px;
 }
-.tClicavel {
+.t a {
     font-size: 30px;
     color: white;
+    width: 800px;
+    justify-content: space-around;
 }
 .fotoPrincipal {
     background-image: url(img/fundo.png);
@@ -28,12 +35,16 @@ header {
 .container {
     display: flex;
     justify-content: center;
-    margin-left: 180px;
+    justify-items: center; 
+    padding-left: 490px;
+    margin-bottom: 80px;
+    margin-top: 80px;
 }
 .comidasSaudaveis p {
     color: black;
     font-size: 40px;
     margin-bottom: 100px;
+    width: 1000px;
 }
 h2 {
     color: #ECA457;
@@ -52,11 +63,15 @@ footer {
     padding-top: 70px;
     padding-bottom: 70px;
     align-content: center;
+    justify-items: center;
+    display: grid;
+    place-items: center;
 }
 .comidasSaudaveis h2 {
     padding-bottom: 60px;
     text-align: center;
 }
+
 .comidasSaudaveis p {
     text-align: justify;
     color: black;
@@ -64,12 +79,7 @@ footer {
     margin-bottom: 100px;
 }
 .iconeReceita {
-    height: 120px;
-}
-.receita {
-    font-size: 40px;
-    font-weight: 100;
-    color: black;
+    height: 120px; 
 }
 span {
     font-size: 25px;
@@ -78,6 +88,12 @@ span {
 .receitinhas {
     padding-right: 300px;
     display: flex;
+}
+.receitinhas p {
+    font-size: 40px;
+    font-weight: 100;
+    width: 350px;
+    color: black;
 }
 .linha {
     height: 3px;
@@ -104,10 +120,17 @@ span {
     font-size: 25px;
     color: #AFA7A7;
 }
+a {
+    text-decoration: none;
+}
 .descBlog {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
+    margin-left: 30px;
+}
+.descBlog h3 {
+    margin-bottom: 15px;
 }
 .logoF {
     height: 140px;

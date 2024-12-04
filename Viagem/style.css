@@ -49,6 +49,7 @@ header {
 .tOport {
     margin-top: 150px;
     margin-bottom: 150px;
+    text-align: center
 }
 .container {
     display: flex;
@@ -72,6 +73,8 @@ footer{
     background-color: #1D0F6E;
     display: flex;
     justify-items: center;
+    display: grid;
+    place-items: center;
     height: 180px;
 }
 h1{
